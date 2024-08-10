@@ -1,0 +1,785 @@
+:root{
+
+   --cabecalho-deg: -80deg, #ffffff, rgb(207, 194, 140);
+   --sec3-deg: -80deg, #25364C, rgb(0, 111, 119);
+
+
+
+
+
+
+}
+
+
+/* scroll bar*/
+::-webkit-scrollbar{
+
+   width: 4px;
+   
+
+
+}
+
+::-webkit-scrollbar-track{
+
+background-color: rgb(207, 194, 140);
+
+
+}
+
+::-webkit-scrollbar-thumb{
+height: 50px;
+background-color: #25364C;
+border-radius: 10px;
+
+}
+
+a{
+
+color: greenyellow;
+
+
+}
+
+
+
+
+
+
+::-webkit-scrollbar-thumb:hover{
+   
+   border: 1px solid greenyellow;
+   
+   
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+/* cabecalho*/
+
+*{
+
+    padding: 0 0;
+    margin: 0 0;
+    }
+    .header_Align{
+
+      display: flex;
+     
+     
+      }
+
+
+    .cabecalho{
+        height: 200px;
+        width: 100%;
+        background: linear-gradient(var(--cabecalho-deg));
+        border-bottom: 1px solid black;
+        display: flex;
+        border-bottom: 4px solid rgb(2, 109, 118);
+        transition: 1.5s ease-in;
+
+       
+        }
+
+        .cabecalho:hover{
+         
+         background: linear-gradient(400deg, #ffffff, rgb(207, 194, 140));
+        }
+        
+
+      
+
+ #logo_Cabecalho{
+   border-radius: 10px;
+  transform: scale(2.0);
+  height: 80px;
+  width: 80px ;
+  margin: 75px auto;
+  box-shadow: 0px 0px 0px rgb(43, 255, 0);
+  justify-content: center;
+  
+
+ }
+
+ #logo_Cabecalho:hover{
+   transform: scale(2.0);
+   
+   width:  80px;
+   box-shadow: 0px 0px 7px rgb(43, 255, 0);
+   transition: 0.5s ease-in-out;
+
+
+
+  }
+
+  #Unic_nav{
+   height: 60px;
+   background-color: #25364C;
+   display: inline;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+}
+
+.botões_de_menu{
+   margin: auto 0px;
+   height:50px;
+   width: 100px;
+   align-items:center;
+   text-align: center;
+   background-color: #25364C;
+   border: none;
+   border-radius: 10px;
+   color: greenyellow;
+   
+   
+   
+   
+   
+   
+   
+   }
+   
+   .botões_de_menu:hover{
+   background-color: rgb(207, 194, 140);
+   color: black;
+   cursor:pointer;
+   
+   
+   
+   
+   }
+   
+   .botões_de_menu:active{
+   
+   color: black;
+   background-color: greenyellow;
+   height: 40px;
+   
+   
+   }
+   
+
+
+
+   /*section1*/
+
+ #sec_1{
+    background-image: url("imagem/pexels-pixabay-461960.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    
+    display: flex;
+    
+    
+ }
+
+
+
+ #bem_vindo{
+  margin: 20px auto; 
+   
+   
+   
+   
+   
+    }
+
+ #section_1_Titulo{
+   
+    font-size: 170px;
+   text-align: center;
+   color: rgb(255, 255, 255);
+  
+
+ }
+
+ #align_text_1{
+
+margin: 100px auto;
+
+
+ }
+
+ #section_1_Texto{
+   font-size: 30px;
+   text-align: center;
+   text-decoration: overline;
+   color: rgb(255, 255, 255);
+   }
+
+
+
+
+   #div_Sec_1{
+
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      position:fixed;
+      
+      
+      }
+
+      #div_2_Artigo_1{
+
+         height: 150px;
+         width: 600px;
+         margin: auto;
+         transform: translateY(40px);
+         background-color: rgba(241, 223, 182, 5);
+         border: 3px solid black;
+         border-radius: 10px;
+         text-align: center;
+         
+         
+         
+         }
+
+
+         #div_3_artigo{
+
+            height: auto;
+            width: auto;
+            flex-direction: column;
+            direction: relative;
+            margin: 0 auto;
+            transform: translateY(20px);
+            text-align: center;
+            
+            
+            
+            
+            
+            
+            }
+
+      .section_1_Aside{
+
+         background-color: rgb(207, 194, 140);
+         border-radius: 0px 6px 6px 0px;
+         height: 100px;
+         width: 50px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         
+         
+         
+         
+         }
+
+      
+
+      /*section2*/
+ #sec_2{
+/*Foto de Pixabay: https://www.pexels.com/pt-br/foto/vista-panoramica-do-campo-agricola-contra-o-ceu-durante-o-por-do-sol-325944/*/
+background-image: url("imagem//pexels-quang-nguyen-vinh-222549-2165688.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+border-bottom: 3px solid rgb(207, 194, 140);;
+ }
+
+
+ .logo_Align{
+
+    margin: 0 auto ;
+
+ }
+
+
+ 
+
+
+ #artigo1_texto_1{
+
+   font-size: 40px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+
+}
+
+
+#artigo_1{
+flex-direction: column;
+text-align: center;
+color: rgb(100, 100, 100);
+font-size: 30px;
+}
+
+
+
+
+
+
+/*divs de artigo da secao 2*/
+
+#artigo_1_texto{
+
+
+color: rgb(0, 0, 0);
+text-align: center;
+
+}
+
+#artigo_1_titulo{
+
+
+   color: rgb(0, 0, 0);
+
+
+}
+
+
+/*section3*/
+
+#sec_3{
+
+color:#F7F7F7;
+display: flex;
+background: linear-gradient(var(--sec3-deg));
+height: auto;
+
+
+
+
+
+
+
+}
+
+
+
+#div_3_artigo{
+display: flex;
+height: auto;
+width: auto;
+flex-direction: column;
+direction: relative;
+margin: 0 auto;
+transform: translateY(20px);
+text-align: center;
+
+
+
+
+
+
+}
+
+
+
+.sec_3_Titulo{
+
+
+font-size: 70px;
+text-decoration: underline;
+color: rgb(207, 194, 140);
+
+
+
+
+
+
+}
+
+
+.sec_3_Titulo{
+
+   margin: 20px auto;
+   font-size: 50px;
+   text-decoration: none;
+   color: rgb(207, 194, 140);
+   
+   
+   
+   
+   
+   
+   }
+
+.sec_3_Texto{
+   font-size: 30px;
+line-height: 1.5;
+
+   
+
+    }
+
+
+
+
+
+
+
+.text_size{
+   
+   margin: 20px auto;
+   height: auto;
+   width: 900px;
+   justify-content: center;
+
+   
+
+    }
+
+.alinhamento_De_Texto_Sec_3{
+   
+height: auto;
+background-color: transparent;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+
+
+
+}
+
+.city_Img_Align{
+margin: 20px auto;
+height: auto;
+
+
+
+
+}
+
+.city_Img{
+
+height: 660px;
+width: 1000px;
+transition: 1.0 ease-in;
+border-right: 4px solid greenyellow;
+
+
+}
+
+
+
+.Grifar_Sec3{
+
+background-color: green;
+
+
+
+}
+
+
+
+.Exemples{
+margin: 40px;
+font-size: 40px;
+color: rgb(207, 194, 140);
+
+
+
+
+
+}
+
+
+
+/*alinhamento de listas*/
+
+.list_align{
+width: 900px;
+display: flex;
+margin: 50px auto;
+
+
+
+
+}
+
+
+
+.lists{
+
+text-align: left;
+margin: 15px auto;
+font-size: 25px;
+
+
+}
+
+
+
+
+
+/*footer*/
+
+
+
+#page_inf {
+   display: flex;
+   padding: 10px;
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   position: relative;
+   color: rgb(160, 160, 160);
+   width: auto;
+   flex-direction: column;
+
+   
+}
+
+
+/* my foto*/
+
+   
+
+   #my_foto{
+   justify-content: left;
+
+
+
+
+   }
+
+   #my_arrenge{
+ height: 100px;
+ border-radius: 15px;
+
+
+   }
+
+   #social_midias{
+
+   
+   flex-direction: row;
+
+
+   }
+
+   .social{
+
+ height: 50px;
+
+
+   }
+
+   .my_text{
+  font-size: 35px;
+  font-family:  Helvetica, sans-serif, arial ;
+
+
+
+
+   }
+
+   
+   
+   
+   
+   
+   @media screen and (max-width: 1118px){
+      /*Botões do nav*/
+
+
+     
+      
+    
+
+     #Unic_nav{
+
+      height: 150px;
+      
+
+
+
+
+     }
+
+     .botões_de_menu{
+     height: 150px;
+     width: 150px;
+     font-size: 30px;
+
+
+
+     }
+
+
+
+      /*seção 1*/
+
+      #bem_vindo{
+
+     margin: 100px auto;
+
+
+      }
+          
+         #section_1_Titulo{
+             
+              font-size: 100px;
+             text-align: center;
+             color: rgb(255, 255, 255);
+             transform: translateY(100px);
+          
+           }
+
+          
+          
+           #section_1_Texto{
+             font-size: 50px;
+            
+             
+             }
+
+             /*imagens de texto*/
+
+             .city_Img_Align{
+               margin: 20px auto;
+               height: auto;
+               
+               
+               
+               
+               }
+
+               /* elementos section 3*/
+               
+               .city_Img{
+               
+               height: 660px;
+               width: 92%;
+               
+               
+               
+               
+               }
+
+              
+   
+
+
+               .text_size{
+              height: auto;
+              width: 700px;
+              margin: auto auto;
+              
+
+              
+
+               }
+
+               .alinhamento_De_Texto_Sec_3{
+   
+                  height: auto;
+                  background-color: transparent;
+                  width: auto;
+                  margin: 50px auto;
+                  
+                  
+                  
+                  
+                  }
+
+                  .sec_3_Texto{
+               font-size: 60px;
+
+
+
+                  }
+
+                  /*listas*/
+
+                  .list_align{
+                     width: 500px;
+                     
+                     
+                     
+                     
+                     
+                     }
+                     
+                     .lists{
+                     
+                     text-align: left;
+                     font-size: 40px;
+                     
+                     
+                     }
+
+                     /*footer*/
+                     #page_inf {
+                        display: flex;
+                        padding: 50px;
+                        text-align: center;
+                        
+                        width: auto;
+                        flex-direction: row;
+                     
+                        
+                     }
+                     
+
+                     /*fotos de footer*/
+
+                     #my_foto{
+                        height: 150px;
+                       justify-content: left;
+                     
+                     
+                     
+                     
+                        }
+                     
+                        #my_arrenge{
+                      height: 150px;
+                     
+                     
+                     
+                        }
+                     
+                        #social_midias{
+                     
+                        justify-content: space-around;
+                        flex-direction: column;
+                     
+                     
+                        }
+
+                      
+                     
+
+                        #icons_align{
+
+                        margin: auto auto;
+
+
+
+                        }
+                     
+                        
+               
+               
+      
+
+      
+      
+      }
+
+
+
+
+
+
